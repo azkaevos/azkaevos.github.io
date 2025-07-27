@@ -3,18 +3,18 @@
 
 /* ----- VARIABLES ----- */
 :root{
-    --body-color: rgb(250, 250, 250);
-    --color-white: rgb(255, 255, 255);
+    --body-color: #0B192C;
+    --color-white: #00183a;
 
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-second: #A8B2C1;
+    --text-color-third: #FF6500;
 
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color: #FF6500;
+    --first-color-hover: #FF9E3D;
 
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgba(0, 0, 0, 0.1);
+    --second-color: #1E3E62;
+    --third-color: #FF6500;
+    --first-shadow-color: rgba(255, 101, 0, 0.4);
 
 }
 
@@ -37,14 +37,14 @@ html{
     border-radius: 25px;
 }
 ::-webkit-scrollbar-track{
-    background: #f1f1f1;
+    background: #0B192C;
 }
 ::-webkit-scrollbar-thumb{
-    background: #ccc;
+    background: #0B192C;
     border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background: #bbb;
+    background: #0B192C;
 }
 
 /* ---##-- REUSABLE CSS --##--- */
@@ -52,7 +52,7 @@ html{
 .btn{
     font-weight: 500;
     padding: 12px 20px;
-    background: #efefef;
+    background: #FF6500;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -215,7 +215,7 @@ nav{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 5px 0px rgba(255, 101, 0, 0.4);
     cursor: pointer;
 }
 .icon:hover{
@@ -264,7 +264,7 @@ nav{
    color: var(--text-color-second);
    background: var(--color-white);
    border-radius: 30px;
-   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+   box-shadow: 0 2px 5px 0 rgba(255, 101, 0, 0.4);
 }
 .scroll-btn i{
     font-size: 20px;
@@ -367,7 +367,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: #A8B2C1;
     margin-bottom: 25px;
 }
 .project-box label{
@@ -430,7 +430,7 @@ h3{
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
-    color: #777;
+    color: #A8B2C1;
     z-index: 2;
 }
 
@@ -473,7 +473,7 @@ textarea{
     color: var(--color-white);
 }
 .form-button>.btn:hover{
-    background: #00B5E7;
+    background: #8e44ad;
 }
 .form-button i{
     font-size: 18px;
@@ -487,7 +487,7 @@ footer{
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #F8F8F8;
+    background: #0B192C;
     padding-block: 40px 60px;
 }
 .top-footer p{
@@ -541,7 +541,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(255, 255, 255, 0.7);
+        background: #0B192C;
         backdrop-filter: blur(20px);
         width: 100%;
         min-height: 450px;

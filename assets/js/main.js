@@ -25,7 +25,7 @@ window.onscroll = function() {headerShadow()};
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-    strings : ["Fullstack","Web Developer","PHP Programmer"],
+    strings : ["Game Dev Learner","Digital Maker","Minecraft Content Creator"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
